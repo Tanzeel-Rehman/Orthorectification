@@ -1,4 +1,6 @@
 function [lasheader,XYZ] = LASRead (infilename)
+%% Function Modified from Philip Glira https://github.com/pglira/Point_cloud_tools_for_Matlab
+
 % LASREAD reads in files in LAS 1.3 and 1.1 format, other formats can be handeled 
 % easily by using the details of formatting style and bytes 
 % INPUT
