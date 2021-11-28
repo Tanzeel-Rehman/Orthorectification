@@ -1,4 +1,6 @@
 function [X, Y, Z,Int,Rnum,NumReturns,scanflag,edge]=Read_Raw_Data(fid,infilename,XYZbytes,Rbits)
+
+%% Function Modified from Philip Glira https://github.com/pglira/Point_cloud_tools_for_Matlab
 %% INPUT:                                                                
 % fid: An open file identifier
 % infilename: Input LAS file name  (for example, 'myinfile.las')
