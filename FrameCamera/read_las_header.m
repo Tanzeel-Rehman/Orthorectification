@@ -1,4 +1,6 @@
 function lasHeaderInfo = read_las_header(lasFilename)
+%% Function Modified from Philip Glira https://github.com/pglira/Point_cloud_tools_for_Matlab
+
 %% INPUT:                                                                
 %lasFilename: Path and filename of LAS file(for example,'myinfile.las')
 %                                                                        
