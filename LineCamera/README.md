@@ -19,9 +19,9 @@ Final DSM with grid cell size of 2cm
 
 **Corresponding ortho-rectified images**
 
-<img src="media\image5.jpg" style="width:1.40455in;height:5.25909in" alt="A picture containing text Description automatically generated" />
+<img src="media\image5.jpeg" style="width:1.72153in;height:9.69306in" alt="A picture containing text, dark Description automatically generated" />
 
-<img src="media\image6.jpg" style="width:1.52083in;height:5.26042in" alt="A picture containing text, furniture, chest of drawers Description automatically generated" />
+<img src="media\image6.jpeg" style="width:1.81458in;height:9.69306in" alt="A picture containing text Description automatically generated" />
 
 **3.2. Quantitative results**
 
