@@ -1,29 +1,40 @@
 **Orthorectification of push-broom hyperspectral images**
 
-**DSM generation from LiDAR data**
+# **DSM generation from LiDAR data**
 
-<img src="media\image1.png" style="width:3.14549in;height:4.05155in" alt="A picture containing text, laser Description automatically generated" />
+<p align="center">
+    <img src="media\image1.png" style="width:3.14549in;height:4.05155in" alt="A picture containing text, laser Description automatically generated" />
+</p>
 
 The actual LiDAR point cloud with red rectangle highlighting the DSM
 extent
 
-<img src="media\image2.png" style="width:3.05208in;height:4.1874in" />
+<p align="center">
+    <img src="media\image2.png" style="width:3.05208in;height:4.1874in" />
+</p>
 
 Final DSM with grid cell size of 2cm
 
-**Input images**
+# **Input images**
+<p align="center">
+    <img src="media\image3.png" style="width:1.4955in;height:5.27163in" alt="A picture containing building, tree Description automatically generated" />
+</p>
 
-<img src="media\image3.png" style="width:1.4955in;height:5.27163in" alt="A picture containing building, tree Description automatically generated" />
+<p align="center">
+    <img src="media\image4.png" style="width:1.52801in;height:5.27163in" alt="A picture containing outdoor Description automatically generated" />
+</p>
 
-<img src="media\image4.png" style="width:1.52801in;height:5.27163in" alt="A picture containing outdoor Description automatically generated" />
+# **Corresponding ortho-rectified images**
 
-**Corresponding ortho-rectified images**
+<p align="center">
+    <img src="media\image5.jpeg" style="width:1.72153in;height:9.69306in" alt="A picture containing text, dark Description automatically generated" />
+</p>
 
-<img src="media\image5.jpeg" style="width:1.72153in;height:9.69306in" alt="A picture containing text, dark Description automatically generated" />
+<p align="center">
+    <img src="media\image6.jpeg" style="width:1.81458in;height:9.69306in" alt="A picture containing text Description automatically generated" />
+</p>
 
-<img src="media\image6.jpeg" style="width:1.81458in;height:9.69306in" alt="A picture containing text Description automatically generated" />
-
-**3.2. Quantitative results**
+# **Quantitative results**
 
 The quality of the orthorectification was quantitatively evaluated by
 comparing the derived ground coordinates of the checkerboard targets
@@ -36,12 +47,15 @@ GSD of hyperspectral camera. As the vertical ground coordinate (Z)
 cannot be directly extracted, therefore we just compared the planimetric
 ground coordinates in this study.
 
-**Nominal and calibrated boresight matrix**
+# **Nominal and calibrated boresight matrix**
 
 | **Boresight matrix** | **ω (º)** | **φ (º)** | **κ (º)** |
 |----------------------|-----------|-----------|-----------|
 | Nominal              | 0.0       | 0.0       | 0.0       |
 | Calibrated           | 0.341067  | -0.945744 | -0.125163 |
+
+# **Results acheived by nominal boresight matrix**
+
 
 **RMSE of the residuals obtained by comparing the orthophoto and the
 surveyed ground coordinates of different targets by using nominal
@@ -58,6 +72,10 @@ boresight matrix.**
 | Cal8          | 0.1600              | 0.2530              |                              |                              |
 | Cal9          | 0.1130              | 0.1760              |                              |                              |
 
+
+# **Results acheived by calibrated boresight matrix**
+
+
 **RMSE of the residuals obtained by comparing the orthophoto and the
 surveyed ground coordinates of different targets by using calibrated
 boresight matrix.**
@@ -73,7 +91,7 @@ boresight matrix.**
 | Cal8          | 0.06000             | 0.0530              |                              |                              |
 | Cal9          | 0.01300             | 0.0360              |                              |                              |
 
-Acknowledgements
+# **Acknowledgements**
 
 -   Dr. Ayman F. Habib, Digital Photogrammetry, Civil Engineering,
     Purdue University
